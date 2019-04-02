@@ -2,6 +2,8 @@
 
 First steps in Go. Comparing results with a similar PHP script.
 
+Converts a supported image into base64 data uri string.
+
 ## Benchmark
 
 [hyperfine](https://github.com/sharkdp/hyperfine) was used for the benchmarks.
