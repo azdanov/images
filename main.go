@@ -39,7 +39,6 @@ func main() {
 	data := fmt.Sprintf("data:%s;base64,%s", mimeType, base64.StdEncoding.EncodeToString(buf))
 
 	fmt.Print(data)
-	_ = file.Close()
 }
 
 func inSlice(a string, list []string) bool {
